@@ -1,0 +1,16 @@
+{
+  "name": "elenakondrateva/symfony-console-app",
+  "description": "Basic PHP CLI application",
+  "keywords": ["PHP", "Symfony", "Console", "CLI"],
+  "homepage": "https://github.com/elenakondrateva/symfony-console-app",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": { "MyApp\\": "src/MyApp" }
+  },
+  "optimize-autoloader": true,
+  "require": {
+    "symfony/console": "^4.0"
+  }
+}
